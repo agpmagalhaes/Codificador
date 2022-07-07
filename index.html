@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Pessoal</title>
+
+    <link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logoEcrip.png"></h1>
+
+            <h2 id="one">
+                <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank" rel="external">ORACLE - ONE</a>
+            </h2>
+
+            <h2 id="alura">
+                <a href="https://www.alura.com.br/" target="_blank" rel="external">ALURA</a>
+            </h2>
+        </div>
+    </header>
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre o Encriptador</h2>
+     
+            <p>Bem vinde ao seu encriptador/desencriptador pessoal. Com ele você pode criar anotações indecifráveis como o Leonardo Da Vince, ou trocar mensagens secretas como O Jogo da Imitação.</p>
+
+            <p>Use as caixas para digitar sua mensagem e encriptá-la ou desencriptá-la, lembrando que acentuação e letras maiúsculas não são permitidas, pois deixarão sua criptografia mais fraca e decifrável.</p>
+        </section>
+
+        <section class="boxes">
+            <div class="form box">
+                <form action="">
+                  <label for="input-texto">Apenas letras minúsculas, sem acento</label>
+                  <input class="text-input" type="text" name="input-texto" id="input-txt" placeholder="insira seu texto aqui">
+                  <input class="btn" type="submit" value="Criptografar" id="btn-cript">
+                  <input class="btn" type="submit" value="Descriptografar" id="btn-descript">
+                  <input class="btn" type="button" value="LIMPAR" id="btn-clean">
+                </form>
+              </div>
+            
+              <div class="msg box">
+                <h2 id="">Mensagem criptografada:</h2>
+                <input class="text-input" type="text" id="output-texto"></input>
+                <input class="btn" type="submit" value="Copiar texto" id="btn-copy">
+              </div>
+        </section>
+    </main>
+    <footer>
+        <div class="caixa-footer">
+                <p id="texto_final">Esta página foi criada por Alessandra G. P. Magalhães para o Challenge Oracle ONE + Alura Sprint 01: Construa um decodificador de texto com Javascript. </p>
+        
+        <!--<div class="fotoPerfil">
+            <img src="perfil.jpg" alt="foto da criadora da página" id="fotoPerfil">
+        </div>  --> 
+            
+        
+            <nav class="nav-footer">
+                <ul class="listaIcones">
+                    <li class="itemIcones"><a href="https://www.linkedin.com/in/alessandragpmagalhaes/" target="_blank"><img src="Linkedin-icon.png" alt="Linkedin"></a>
+                    </li>
+                
+                    <li class="itemIcones"><a href="https://github.com/agpmagalhaes" target="_blank"><img src="Github-icon.png" alt="Github"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div> 
+    </footer>
+</body>
+</html>
+<script src="script.js"></script>

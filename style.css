@@ -1,0 +1,149 @@
+header {
+	background: #6c74e5;
+	padding: 20px 0;
+    background: url("bg.jpg");
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+#one {
+	position: absolute;
+	top: 110px;
+	left: 0;
+}
+#alura {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+#one a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+#alura a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+#one a:hover {
+	color: #e7af60;
+	text-decoration: underline;
+}
+#alura a:hover {
+	color: #e7af60;
+	text-decoration: underline;
+}
+.titulo-principal {
+	text-align: center;
+	font-size: 3em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+    text-align: justify;
+	margin: 0 0 1em;
+    font-size: 1.5em;
+}
+.boxes {
+	margin: auto;
+    padding: 3em 0;
+    background: linear-gradient(#ffffff, #6c74e5);
+    display: flex;
+    justify-content: center;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  
+.titulo {
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    width: 30vw;
+    margin: auto;
+  
+}
+  
+.box {
+    color: royalblue;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 0.5em;
+    width: 30vw;
+    height: auto;
+}
+  
+.btn {
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color: royalblue;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+  
+.btn:hover{
+    background-color: blue;
+}
+  
+.text-input {
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+}
+
+footer {
+	background: url(bg.jpg);
+	padding: 20px 0;
+}
+
+.caixa-footer {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.nav-footer {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.nav-footer li {
+	display: inline;
+	margin: 0 0 0 15px;
+    width: 90px;
+    height: 90px;
+}
